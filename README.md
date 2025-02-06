@@ -1,0 +1,2 @@
+# Groovy NullPointerException Handling
+This example demonstrates a common issue in Groovy where a method doesn't handle null input values, potentially leading to NullPointerExceptions. The `myMethod` function compares two values but does not explicitly check for nulls before comparison. This is problematic because comparing null to a number using the `>` operator in Groovy will result in a `NullPointerException`.  The solution demonstrates how to properly incorporate null checks to mitigate this risk.
